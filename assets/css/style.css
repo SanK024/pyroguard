@@ -49,7 +49,7 @@ Version: 1.0.0
   --primary-color: #008bf9;
   --secondary-color: #01937b;
   --tertiary-color: #20bad1;
-  --title-color: #0f3567;
+  --title-color: #e67817;
   --paragraph-color: #333f4d;
   --title-two-color: #213438;
 }
@@ -1205,6 +1205,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 20px 30px;
+  background-color: #fff;
 }
 .mobile-menu .toggle-button {
   position: relative;
@@ -1871,16 +1872,21 @@ img {
 ==================*/
 
 .about-1 {
-  padding: 138px 0 133px;
+  padding: 100px 0 150px;
+  background-color: #f9f1e8;
+}
+.about-3 {
+  padding: 50px 0 70px;
+  background-color: #f9f1e8;
 }
 .about-1 .section-image {
   position: relative;
   margin-top: 30px;
 }
 .about-1 .section-image .image {
-  height: 453px;
-  width: 416px;
+  width: 500px;
   border-radius: 10px;
+  padding: 0;
 }
 .about-1 .section-image .video-image {
   position: absolute;
@@ -1970,7 +1976,12 @@ img {
 }
 .about-1 .section-title .description {
   margin: 30px 0 20px;
-  font-size: 20px;
+  font-size: 17px;
+  text-align: justify;
+}
+.about-1 .section-title .description-3 {
+  margin: 10px 0 -5px;
+  font-size: 17px;
   text-align: justify;
 }
 .about-1 .content .list-title {
@@ -3102,11 +3113,28 @@ img {
 ==================*/
 
 .faq {
-  padding: 120px 0 120px;
-  background-color: #eff7f8;
+  padding: 50px 0 50px;
+  background-color: #f9f1e8;
+}
+.fag-ex{
+  min-width: 990px;
+  
+}
+.faq-bg-c{
+  background-color: #fff;
 }
 .faq .section-title {
-  margin: 0 0 71px;
+  margin: 0 0 30px;
+}
+.faq .description-2{
+  font-size: 17px;
+  text-align: justify;
+}
+.faq .description{
+  font-size: 17px;
+  text-align: justify;
+  max-width: 1260px;
+  padding-bottom: 25px;
 }
 .faq .accordion {
   margin: 0;
@@ -3133,6 +3161,24 @@ img {
   font-weight: bold;
   padding: 16px 28px 24px;
   background-color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.faq-bg-c .accordion .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 28px 24px;
+  background-color: #f9f1e8;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3175,11 +3221,11 @@ img {
   background-color: #fff;
 }
 .faq .cncl{
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .faq .image {
   position: relative;
-  padding: 0 40px 40px 0;
+  padding: 0 40px 40px 150px;
 }
 .faq .image .faq-thumb {
   border-radius: 5px;
@@ -3983,6 +4029,19 @@ img {
   font-size: 16px;
   height: 41px;
   width: 41px;
+  text-align: center;
+  line-height: 41px;
+  border-radius: 5px;
+}
+.one-line{
+  display: inline;
+}
+.one-line .port-btn a {
+  display: inline-block;
+  background: #e67817;
+  color: #fff;
+  font-size: 20px;
+  padding:5px 14px;
   text-align: center;
   line-height: 41px;
   border-radius: 5px;
@@ -5739,11 +5798,19 @@ img {
 ==================*/
 
 .breadcrumb-area {
-  background: url(../image/breatcome.png);
+  /* background: url(../image/breatcome.png); */
+  background-color: #f9f1e8;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 260px 0 203px;
+  padding: 200px 0 100px;
+}
+.breadcrumb-area-2{
+  background-color: #f9f1e8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 40px 0 0;
 }
 .breadcrumb-area ul.breadcrumb-nav {
   margin: 0;
@@ -5752,24 +5819,30 @@ img {
   float: right;
 }
 .breadcrumb-area .breadcrumb-inner .page-title {
+  padding-bottom: 20px;
   font-size: 48px;
   font-weight: bold;
   text-align: left;
-  color: #fff;
+  color: #e67817;
+}
+.breadcrumb-area .breadcrumb-inner .page-description{
+  font-size: 19px;
+  text-align: justify;
+  color: #000;
 }
 .breadcrumb-area .breadcrumb-nav li {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   margin-right: 16px;
   display: inline-block;
 }
 .breadcrumb-area .breadcrumb-nav li:last-child {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 700;
 }
 .breadcrumb-area .breadcrumb-nav li a {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 700;
 }
@@ -5782,7 +5855,7 @@ img {
 ==================*/
 
 .about-2 {
-  padding: 120px 0 120px;
+  padding: 80px 0 0;
 }
 .about-2 .about-img {
   position: relative;
