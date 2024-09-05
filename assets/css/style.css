@@ -8198,6 +8198,13 @@ h2.project-title {
   background-color: #f9f1e8;
 }
 
+.partners-section .container .title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 21px;
+  line-height: 50px;
+}
+
 .partners-section p {
   font-size: 18px;
   color: #666;
