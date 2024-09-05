@@ -3157,7 +3157,7 @@ img {
   align-items: center;
   justify-content: space-between;
   color: var(--title-color);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bold;
   padding: 16px 28px 24px;
   background-color: #fff;
@@ -8188,4 +8188,55 @@ h2.project-title {
   transition-delay: 0.2s;
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+}
+
+/* Our partner */
+
+.partners-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f1e8;
+}
+
+.partners-section p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0 40px;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.partner {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner img {
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.partner:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.partners-grid .partner:last-child {
+  grid-column: 2 / 3;
 }
