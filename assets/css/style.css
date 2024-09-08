@@ -73,7 +73,7 @@ h6 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 60px;
 }
 h2 {
   font-size: 38px;
@@ -1831,7 +1831,7 @@ img {
 }
 .section-title .subtitle {
   color: var(--title-color);
-  font-size: 14px;
+  font-size: 20px;
   /* text-transform: uppercase; */
   line-height: 17px;
   margin-bottom: 8px;
@@ -2514,7 +2514,7 @@ img {
 /* Style two*/
 
 .service-2 {
-  background: #fdfdfd;
+  background: #f9f1e8;
   padding: 100px 0 94px;
 }
 .service-2 .section-title {
@@ -2522,7 +2522,7 @@ img {
 }
 .service-2 .section-title .subtitle {
   color: #213438;
-  font-size: 15px;
+  font-size: 20px;
 }
 .service-2 .section-title-description {
   color: #757575;
@@ -3038,7 +3038,7 @@ img {
 .project-section {
   /* padding: 40px 0 254px; */
   padding: 100px 0 254px;
-  background: #f2f3fc;
+  background: #f9f1e8;
   position: abs;
   margin-top: 0px;
 }
@@ -3256,6 +3256,21 @@ img {
 .faq .image .text-box .description {
   color: #fff;
   margin-bottom: 0;
+}
+
+.faq-gap{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.faq-gap .span-2{
+  display: flex;
+  padding-top: 15px;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 16px;
+  
 }
 
 /* Style Two*/
@@ -3866,6 +3881,7 @@ img {
   background-image: url(../image/case.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f9f1e8;
 }
 .portfolio-section .section-title {
   margin-bottom: 64px;
@@ -3986,7 +4002,7 @@ img {
 
 .portfolio.style-two {
   padding: 0 0 50px;
-  background: #f2f3fc;
+  background: #f9f1e8;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -4113,6 +4129,7 @@ img {
 
 .work-process {
   padding: 100px 0 57px;
+  background-color: #f9f1e8;
 }
 .work-process .section-title {
   margin-bottom: 38px;
@@ -4292,7 +4309,7 @@ img {
 
 .work-process.style-two {
   padding: 79px 0 79px;
-  background-color: #fdfdfd;
+  background-color: #f9f1e8;
 }
 .work-process.style-two .section-title .subtitle {
   color: #213438;
