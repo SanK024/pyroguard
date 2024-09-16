@@ -98,6 +98,7 @@ img {
   width: 100%;
 }
 
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1315px;
@@ -477,8 +478,14 @@ img {
   color: #616161;
 }
 .site-header.style2 .main-menu .manu-wrapper .menu-ul li .sub-menu-toggle {
-  top: 39%;
+  top: 37%;
 }
+.site-header.style2 .main-menu .manu-wrapper .menu-ul li .sub-sub-menu-toggle {
+  top: 30%;
+  left: 95%;
+}
+
+
 
 @media (max-width: 1199px) {
   .site-header.style2 .main-menu {
@@ -700,6 +707,12 @@ img {
 }
 .site-header .main-menu .manu-wrapper .menu-ul li .sub-menu .sub-menu {
   left: 100%;
+  top: 130%;
+  visibility: hidden;
+  opacity: 0;
+}
+.site-header .main-menu .manu-wrapper .menu-ul li .sub-menu .sub-sub-menu {
+  left: 104%;
   top: 130%;
   visibility: hidden;
   opacity: 0;
@@ -1674,7 +1687,7 @@ img {
 
 .hero-section.style-two {
   position: relative;
-  background-image: url(../image/hero2-bg.jpg);
+  /* background-image: url(../image/hero2-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8215,7 +8228,7 @@ h2.project-title {
   background-color: #f9f1e8;
 }
 
-.partners-section .container .title{
+.partners-section .container .title {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 21px;
@@ -8230,7 +8243,7 @@ h2.project-title {
 
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Default: 3 columns */
   gap: 10px;
   justify-items: center;
   align-items: center;
@@ -8261,6 +8274,79 @@ h2.project-title {
   transition: background-color 0.3s ease;
 }
 
+/* Center the last logo */
 .partners-grid .partner:last-child {
   grid-column: 2 / 3;
 }
+
+/* Responsive Design Adjustments */
+@media (max-width: 1024px) {
+  .partners-section {
+    background-color: white;
+  }
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr); /* For medium screens (tablets, small desktops) */
+  }
+}
+
+@media (max-width: 768px) {
+  .partners-section {
+    background-color: white;
+  }
+  .partners-grid {
+    grid-template-columns: repeat(1,1fr); /* For mobile screens */
+    gap: 15px; /* Increase gap for better spacing */
+  }
+
+  .partners-section .container .title {
+    font-size: 32px; /* Adjust title size for smaller screens */
+  }
+
+  .partners-section p {
+    font-size: 16px; /* Adjust paragraph font size */
+  }
+
+  .partner {
+    width: 220px; /* Adjust width for small screens */
+    height: 130px; /* Adjust height for small screens */
+  }
+
+  .partner img {
+    max-width: 180px;
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-section {
+    background-color: white;
+  }
+  .partners-grid {
+    grid-template-columns: 1fr; /* Single column for very small screens */
+    gap: 10px;
+  }
+
+  .partner {
+    width: 180px; /* Reduce the width for very small screens */
+    height: 100px; /* Reduce the height for very small screens */
+  }
+
+  .partner img {
+    max-width: 160px;
+    max-height: 70px;
+  }
+
+  .partners-section .container .title {
+    font-size: 28px; /* Further adjust title size */
+  }
+
+  .partners-section p {
+    font-size: 14px; /* Further adjust paragraph size */
+  }
+}
+
+
+
+
+
+/* Slideshow */
