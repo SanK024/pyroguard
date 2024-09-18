@@ -584,7 +584,9 @@
 		margin-right: 0;
 	}
 	.faq .image .faq-thumb {
-		padding: 42px 40px 40px 0;
+		padding: 0;
+		width: 350px;
+
 	}
 
 	/* Style Two */
@@ -902,6 +904,7 @@
 	}
 	.site-footer .footer-widget {
 		margin-bottom: 35px;
+		margin-right: 0;
 	}
 
 	/*copy right*/
@@ -1064,7 +1067,7 @@
 	}
 	.about-1 .section-image .image {
 		height: auto;
-		width: 100%;
+		width: 350px;
 	}
 	.about-1 .section-image .image-text {
 		height: 150px;
@@ -1880,6 +1883,8 @@
 	}
 	.site-footer .footer-widget{
 		margin-bottom: 35px;
+		margin-right: 0;
+
 	}
 	.site-footer .copyright {
 		margin-top: 95px;
@@ -2038,7 +2043,8 @@
 	    padding: 16px 10px;
 	}
 	.faq .image .faq-thumb {
-	    padding: 42px 0 40px 0;
+	    padding: 0;
+		width: 450px;
 	}
 	.faq.style-two h1.text-white {
 	    font-size: 24px;

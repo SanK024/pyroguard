@@ -98,7 +98,6 @@ img {
   width: 100%;
 }
 
-
 @media (min-width: 1400px) {
   .container {
     max-width: 1315px;
@@ -450,10 +449,10 @@ img {
   transition: 0.5s;
   color: #000;
 }
-.contact-button i{
+.contact-button i {
   padding-left: 3px;
 }
-.small-contact-box :hover{
+.small-contact-box :hover {
   color: #e67817;
 }
 
@@ -484,8 +483,6 @@ img {
   top: 30%;
   left: 95%;
 }
-
-
 
 @media (max-width: 1199px) {
   .site-header.style2 .main-menu {
@@ -1869,9 +1866,8 @@ img {
 }
 .section-title .description {
   margin: 31px 0 20px;
-  
 }
-.sub-section{
+.sub-section {
   max-width: 1260px;
   padding-left: 50px;
 }
@@ -1908,7 +1904,7 @@ img {
   margin-top: 30px;
 }
 .about-1 .section-image .image {
-  width: 500px;
+  width: 450px;
   border-radius: 10px;
   padding: 0;
 }
@@ -2144,7 +2140,6 @@ img {
 .about-two .section-title .description {
   color: #757575;
   margin: 0 0 20px;
-  
 }
 .single-image.style2 {
   position: relative;
@@ -3137,24 +3132,20 @@ img {
 ==================*/
 
 .faq {
-  padding: 30px 0 30px;
+  padding: 40px 0 40px;
   background-color: #f9f1e8;
 }
-.fag-ex{
-  min-width: 990px;
-  
-}
-.faq-bg-c{
+.faq-bg-c {
   background-color: #fff;
 }
 .faq .section-title {
   margin: 0 0 30px;
 }
-.faq .description-2{
+.faq .description-2 {
   font-size: 17px;
   text-align: justify;
 }
-.faq .description{
+.faq .description {
   font-size: 17px;
   text-align: justify;
   max-width: 1260px;
@@ -3194,7 +3185,6 @@ img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 
 .faq-bg-c .accordion .title {
   display: flex;
@@ -3246,15 +3236,21 @@ img {
   padding: 20px 30px 20px;
   background-color: #fff;
 }
-.faq .cncl{
+.faq .cncl {
   padding-top: 40px;
 }
 .faq .image {
   position: relative;
-  padding: 0 40px 40px 200px;
+  padding: 20px 0 20px 120px;
+}
+@media (max-width:1200px) {
+  .faq .image {
+    padding: 20px 0 20px 20px;
+  }
 }
 .faq .image .faq-thumb {
-  border-radius: 5px;
+  border-radius: 10px;
+  width: 450px;
 }
 .faq .image .text-box {
   position: absolute;
@@ -3282,19 +3278,17 @@ img {
   margin-bottom: 0;
 }
 
-.faq-gap{
+.faq-gap {
   display: flex;
   flex-direction: column;
 }
 
-
-.faq-gap .span-2{
+.faq-gap .span-2 {
   display: flex;
   padding-top: 15px;
   flex-direction: row;
   font-weight: 500;
   font-size: 16px;
-  
 }
 
 /* Style Two*/
@@ -3424,7 +3418,7 @@ img {
   margin-bottom: 58px;
 }
 .faq.style-three .image .faq-thumb {
-  padding: 0 6px 40px 0;
+  padding: 0 0 40px 0;
 }
 .faq.style-three .right-side {
   padding: 0 0 0 31px;
@@ -3501,7 +3495,6 @@ img {
   width: 72%;
   color: #878680;
   margin: 32px 0 0;
-  
 }
 .faq.style-four .row.contact form {
   text-align: center;
@@ -4075,7 +4068,7 @@ img {
   line-height: 41px;
   border-radius: 5px;
 }
-.one-line{
+.one-line {
   display: inline;
 }
 .one-line .port-btn a {
@@ -4083,7 +4076,7 @@ img {
   background: #e67817;
   color: #fff;
   font-size: 20px;
-  padding:5px 14px;
+  padding: 5px 14px;
   text-align: center;
   line-height: 41px;
   border-radius: 5px;
@@ -5619,7 +5612,7 @@ img {
   background-color: #fff;
 }
 .footer-widget.middle {
-  margin-right: -300px;
+  margin-right: -270px;
 }
 .site-footer .footer-widget .footer-icon-box {
   display: flex;
@@ -5733,11 +5726,11 @@ img {
   background-color: white;
 }
 .site-footer.style-two .footer-widget .social-icon li a .facebook:hover {
-  color: #1877F2;
+  color: #1877f2;
   background-color: white;
 }
 .site-footer.style-two .footer-widget .social-icon li a .insta:hover {
-  color: #E1306C;
+  color: #e1306c;
   background-color: white;
 }
 .site-footer.style-two .footer-widget .social-icon li a .x:hover {
@@ -5860,7 +5853,7 @@ img {
   background-position: center center;
   padding: 200px 0 100px;
 }
-.breadcrumb-area-2{
+.breadcrumb-area-2 {
   background-color: #f9f1e8;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5880,7 +5873,7 @@ img {
   text-align: left;
   color: #e67817;
 }
-.breadcrumb-area .breadcrumb-inner .page-description{
+.breadcrumb-area .breadcrumb-inner .page-description {
   font-size: 19px;
   text-align: justify;
   color: #000;
@@ -8311,7 +8304,6 @@ h2.project-title {
   .partners-grid .partner:last-child {
     grid-column: 1 / 2;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -8319,7 +8311,7 @@ h2.project-title {
     background-color: white;
   }
   .partners-grid {
-    grid-template-columns: repeat(1,1fr); /* For mobile screens */
+    grid-template-columns: repeat(1, 1fr); /* For mobile screens */
     gap: 10px;
   }
 
@@ -8374,7 +8366,8 @@ h2.project-title {
   width: 100%;
   border-collapse: collapse;
 }
-.table th, .table td {
+.table th,
+.table td {
   border: 1px solid black;
   padding: 10px;
   text-align: center;
@@ -8393,43 +8386,58 @@ h2.project-title {
 
 /* Adjust table layout for small devices */
 @media (max-width: 600px) {
-  .table, .table thead, .table tbody, .table th, .table td, .table tr {
-      display: block; /* Stack rows for mobile */
+  .table,
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    display: block; /* Stack rows for mobile */
   }
   .table thead tr {
-      position: absolute; /* Hide table headers on mobile */
-      top: -9999px;
-      left: -9999px;
+    position: absolute; /* Hide table headers on mobile */
+    top: -9999px;
+    left: -9999px;
   }
   .table tr {
-      margin: 0 0 1rem 0;
+    margin: 0 0 1rem 0;
   }
   .table td {
-      border: none;
-      position: relative;
-      padding-left: 50%;
-      text-align: left;
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
   }
   .table td:before {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 45%;
-      padding-right: 10px;
-      white-space: nowrap;
-      font-weight: bold;
-      text-align: left;
-      color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: left;
+    color: black;
   }
   /* Add labels to each cell for mobile view */
-  .table td:nth-of-type(1):before { content: "SPECIFICATIONS"; }
-  .table td:nth-of-type(2):before { content: "DynamEco 50-E03"; }
-  .table td:nth-of-type(3):before { content: "DynamEco 200-E03"; }
-  .table td:nth-of-type(4):before { content: "DynamEco 300-E03"; }
-  .table td:nth-of-type(5):before { content: "DynamEco 2000-E03"; }
+  .table td:nth-of-type(1):before {
+    content: "SPECIFICATIONS";
+  }
+  .table td:nth-of-type(2):before {
+    content: "DynamEco 50-E03";
+  }
+  .table td:nth-of-type(3):before {
+    content: "DynamEco 200-E03";
+  }
+  .table td:nth-of-type(4):before {
+    content: "DynamEco 300-E03";
+  }
+  .table td:nth-of-type(5):before {
+    content: "DynamEco 2000-E03";
+  }
 }
 
-.image-all{
+.image-all {
   width: 400px;
   border-radius: 10px;
   padding: 0;
