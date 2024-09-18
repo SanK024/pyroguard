@@ -192,10 +192,10 @@ img {
 }
 
 .custom-logo {
-  width: 100px;
+  width: 150px;
 }
 .custom-logo-mobile {
-  width: 70px;
+  width: 100px;
 }
 .site-header .main-menu .manu-wrapper .menu-ul,
 .site-header .main-menu .manu-wrapper .menu-ul ul {
@@ -8274,19 +8274,21 @@ h2.project-title {
   transition: background-color 0.3s ease;
 }
 
-/* Center the last logo */
 .partners-grid .partner:last-child {
   grid-column: 2 / 3;
 }
 
-/* Responsive Design Adjustments */
 @media (max-width: 1024px) {
   .partners-section {
     background-color: white;
   }
   .partners-grid {
-    grid-template-columns: repeat(2, 1fr); /* For medium screens (tablets, small desktops) */
+    grid-template-columns: repeat(2, 1fr);
   }
+  .partners-grid .partner:last-child {
+    grid-column: 1 / 2;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -8295,40 +8297,40 @@ h2.project-title {
   }
   .partners-grid {
     grid-template-columns: repeat(1,1fr); /* For mobile screens */
-    gap: 15px; /* Increase gap for better spacing */
+    gap: 10px;
   }
 
   .partners-section .container .title {
-    font-size: 32px; /* Adjust title size for smaller screens */
+    font-size: 32px;
   }
 
   .partners-section p {
-    font-size: 16px; /* Adjust paragraph font size */
+    font-size: 16px;
   }
 
   .partner {
-    width: 220px; /* Adjust width for small screens */
-    height: 130px; /* Adjust height for small screens */
+    width: 300px;
+    height: 210px;
   }
 
   .partner img {
-    max-width: 180px;
-    max-height: 80px;
+    max-width: 260px;
+    max-height: 160px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 530px) {
   .partners-section {
     background-color: white;
   }
   .partners-grid {
-    grid-template-columns: 1fr; /* Single column for very small screens */
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 
   .partner {
-    width: 180px; /* Reduce the width for very small screens */
-    height: 100px; /* Reduce the height for very small screens */
+    width: 180px;
+    height: 100px;
   }
 
   .partner img {
@@ -8341,7 +8343,7 @@ h2.project-title {
   }
 
   .partners-section p {
-    font-size: 14px; /* Further adjust paragraph size */
+    font-size: 14px;
   }
 }
 
