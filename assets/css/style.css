@@ -1383,7 +1383,7 @@ img {
   display: inline-block;
   color: #fff;
   padding: 10px 20px;
-  background-color: var(--primary-color);
+  background-color: var(--title-color);
   border-radius: 5px;
   font-size: 13px;
   text-transform: uppercase;
@@ -1860,9 +1860,20 @@ img {
   margin-bottom: 21px;
   line-height: 50px;
 }
+.sub-section-title .title,
+.sub-section-title .title-two {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 21px;
+  line-height: 50px;
+}
 .section-title .description {
   margin: 31px 0 20px;
   
+}
+.sub-section{
+  max-width: 1260px;
+  padding-left: 50px;
 }
 /*style two*/
 .section-title.style-two .title,
@@ -3126,7 +3137,7 @@ img {
 ==================*/
 
 .faq {
-  padding: 50px 0 50px;
+  padding: 30px 0 30px;
   background-color: #f9f1e8;
 }
 .fag-ex{
@@ -3240,7 +3251,7 @@ img {
 }
 .faq .image {
   position: relative;
-  padding: 0 40px 40px 150px;
+  padding: 0 40px 40px 200px;
 }
 .faq .image .faq-thumb {
   border-radius: 5px;
@@ -5608,7 +5619,7 @@ img {
   background-color: #fff;
 }
 .footer-widget.middle {
-  margin-right: 11px;
+  margin-right: -300px;
 }
 .site-footer .footer-widget .footer-icon-box {
   display: flex;
@@ -5719,7 +5730,19 @@ img {
 }
 .site-footer.style-two .footer-widget .social-icon li a i:hover {
   color: #fff;
-  background-color: var(--secondary-color);
+  background-color: white;
+}
+.site-footer.style-two .footer-widget .social-icon li a .facebook:hover {
+  color: #1877F2;
+  background-color: white;
+}
+.site-footer.style-two .footer-widget .social-icon li a .insta:hover {
+  color: #E1306C;
+  background-color: white;
+}
+.site-footer.style-two .footer-widget .social-icon li a .x:hover {
+  color: black;
+  background-color: white;
 }
 .site-footer.style-two .recent-project {
   display: grid;
@@ -5887,7 +5910,7 @@ img {
 ==================*/
 
 .about-2 {
-  padding: 80px 0 0;
+  padding: 30px 0 30px;
 }
 .about-2 .about-img {
   position: relative;
@@ -8347,3 +8370,67 @@ h2.project-title {
   }
 }
 
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.table th {
+  background-color: #e67817;
+  color: white;
+}
+.table td {
+  background-color: #f2f2f2;
+}
+/* Responsive table container */
+.table-container {
+  overflow-x: auto; /* Horizontal scroll for smaller screens */
+}
+
+/* Adjust table layout for small devices */
+@media (max-width: 600px) {
+  .table, .table thead, .table tbody, .table th, .table td, .table tr {
+      display: block; /* Stack rows for mobile */
+  }
+  .table thead tr {
+      position: absolute; /* Hide table headers on mobile */
+      top: -9999px;
+      left: -9999px;
+  }
+  .table tr {
+      margin: 0 0 1rem 0;
+  }
+  .table td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+      text-align: left;
+  }
+  .table td:before {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      text-align: left;
+      color: black;
+  }
+  /* Add labels to each cell for mobile view */
+  .table td:nth-of-type(1):before { content: "SPECIFICATIONS"; }
+  .table td:nth-of-type(2):before { content: "DynamEco 50-E03"; }
+  .table td:nth-of-type(3):before { content: "DynamEco 200-E03"; }
+  .table td:nth-of-type(4):before { content: "DynamEco 300-E03"; }
+  .table td:nth-of-type(5):before { content: "DynamEco 2000-E03"; }
+}
+
+.image-all{
+  width: 400px;
+  border-radius: 10px;
+  padding: 0;
+}

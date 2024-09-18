@@ -496,10 +496,16 @@
 	==================*/
 
 	.about-1 {
-		padding: 138px 0 95px;
+		padding: 100px 0 95px;
 	}
 	.about-1 .section-image{
 		margin: 0 0 36px;
+		text-align: center;
+
+	}
+	.faq .image{
+		text-align: center;
+		padding: 50px 0 0 0;
 	}
 	.about-1 .section-title .title{
 		font-size: 36px;
