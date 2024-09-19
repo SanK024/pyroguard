@@ -2085,11 +2085,14 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
 	.about-1 .section-image .image{
 		width: 250px;
 	}
 	.faq .image .faq-thumb{
+		width: 250px;
+	}
+	.image-all{
 		width: 250px;
 	}
 }
