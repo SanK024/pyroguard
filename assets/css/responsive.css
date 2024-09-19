@@ -2044,7 +2044,7 @@
 	}
 	.faq .image .faq-thumb {
 	    padding: 0;
-		width: 450px;
+		width: 350px;
 	}
 	.faq.style-two h1.text-white {
 	    font-size: 24px;
@@ -2082,4 +2082,14 @@
 	}
 
 
+}
+
+
+@media (max-width: 360px) {
+	.about-1 .section-image .image{
+		width: 250px;
+	}
+	.faq .image .faq-thumb{
+		width: 250px;
+	}
 }
