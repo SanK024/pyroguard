@@ -5737,6 +5737,10 @@ img {
   color: black;
   background-color: white;
 }
+.site-footer.style-two .footer-widget .social-icon li a .linked:hover {
+  color: white;
+  background-color: #0077B5;
+}
 .site-footer.style-two .recent-project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
