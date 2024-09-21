@@ -981,14 +981,14 @@
 
 	/* Style Two */
 
-	.hero-section.style-two{
-		height: 600px;
-	}
+	/* .hero-section.style-two{
+		height: 400px;
+	} */
 	.hero-section.style-two .wrapper{
 		width: 100%;
 	}
 	.hero-section.style-two h1.title {
-		font-size: 36px;
+		font-size: 25px;
 	}
 	.hero-section.style-two p.description {
 		width: 100%;

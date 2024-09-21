@@ -3243,7 +3243,7 @@ img {
   position: relative;
   padding: 20px 0 20px 120px;
 }
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .faq .image {
     padding: 20px 0 20px 20px;
   }
@@ -5739,7 +5739,7 @@ img {
 }
 .site-footer.style-two .footer-widget .social-icon li a .linked:hover {
   color: white;
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .site-footer.style-two .recent-project {
   display: grid;
@@ -8326,48 +8326,61 @@ h2.project-title {
   padding: 0;
 }
 
+/*Slider */
 
-.owl-carousel .item {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 43.6%; /* (830 / 1903) * 100 */
-  overflow: hidden;
-}
-
-.owl-carousel .item img {
+.owl-carousel{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: auto;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover; /* Ensures the image covers the container without stretching */
-  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.hero-section{
+  position: relative;
+  z-index: 1;
 }
 
-.owl-carousel {
-  position: absolute; /* Positioning it absolutely */
-  top: 90; /* Align it to the top */
-  left: 0; /* Align it to the left */
-  z-index: 1; /* Lower z-index to place it behind the hero section */
+@media (max-width:1441px) {
+  .hero-section.style-two{
+    height: 750px;
+  }
 }
-
-.hero-section {
-  position: relative; /* Ensure the hero section is positioned relatively */
-  width: 100%;
-  z-index: 2; /* Higher z-index to keep it on top */
-  overflow: hidden; /* Prevent overflow of elements */
+@media (max-width:1024px) {
+  .hero-section.style-two{
+    height: 650px;
+  }
 }
-
-.owl-carousel .item {
-  width: 100%;
-  height: 100%;
+@media (max-width:768px) {
+  .hero-section.style-two{
+    height: 550px;
+  }
 }
+@media (max-width:425px) {
+  .hero-section.style-two{
+    height: 320px;
+  }
+}
+@media (max-width:375px) {
+  .hero-section.style-two{
+    height: 280px;
+  }
 
-.owl-carousel .item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure images cover without stretching */
+  .hero-section.style-two h1.title {
+  }
+  .hero-section.style-two p.description {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width:320px) {
+  .hero-section.style-two{
+    height: 240px;
+  }
+
+  .hero-section.style-two h1.title {
+  }
+  .hero-section.style-two p.description {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .hero-section.style-two .wrapper{
+    margin-top: 0px;
+  }
 }
