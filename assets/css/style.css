@@ -1856,6 +1856,7 @@ img {
   font-weight: bold;
   margin-bottom: 21px;
   line-height: 50px;
+  color: #e67817;
 }
 .sub-section-title .title,
 .sub-section-title .title-two {
@@ -1874,7 +1875,7 @@ img {
 /*style two*/
 .section-title.style-two .title,
 .section-title.style-two .title-two {
-  color: #213438;
+  color: var(--title-color)
 }
 .section-title .description {
   color: var(--paragraph-color);
@@ -3062,11 +3063,11 @@ img {
   margin-top: 0px;
 }
 .project-section .section-title .subtitle {
-  color: #000;
+  color: #213438;
   font-size: 20px;
 }
 .project-section .section-title .title {
-  color: #000;
+  color: var(--title-color);
   margin-bottom: 15px;
 }
 
@@ -8256,9 +8257,11 @@ h2.project-title {
 }
 
 .partners-section p {
-  font-size: 18px;
+  font-size: 20px;
   color: #666;
   margin: 10px 0 40px;
+  font-weight: lighter;
+  font-family: "DM Sans", sans-serif
 }
 
 .partners-grid {
@@ -8377,4 +8380,18 @@ h2.project-title {
   .owl-main.item {
     height: 350px;
   }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 300px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
