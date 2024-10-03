@@ -361,8 +361,9 @@ $(document).ready(function(o){
 	/*================
 	 Accordion
 	==================*/
-
-	$('.accordion > li:eq(0) a').addClass('active').next().slideDown();
+	if(!window.location.hash){
+		$('.accordion > li:eq(0) a').addClass('active').next().slideDown();
+	}
 
 	$('.accordion a').click(function(j) {
 		var dropDown = $(this).closest('li').find('p');

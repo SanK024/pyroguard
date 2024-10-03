@@ -2000,6 +2000,11 @@ img {
   font-size: 17px;
   text-align: justify;
 }
+.about-1 .section-title .description-4 {
+  margin: 30px 0 20px;
+  font-size: 20px;
+  text-align: justify;
+}
 .about-1 .section-title .description-3 {
   margin: 10px 0 -5px;
   font-size: 17px;
@@ -3136,6 +3141,10 @@ img {
   padding: 40px 0 40px;
   background-color: #f9f1e8;
 }
+.faq-2 {
+  padding: 25px 0 25px;
+  background-color: #f9f1e8;
+}
 .faq-bg-c {
   background-color: #fff;
 }
@@ -3151,6 +3160,13 @@ img {
   text-align: justify;
   max-width: 1260px;
   padding-bottom: 25px;
+}
+.faq-2 .description {
+  font-size: 20px;
+  text-align: justify;
+  max-width: 1260px;
+  padding: 0;
+  margin: 0;
 }
 .faq .accordion {
   margin: 0;
